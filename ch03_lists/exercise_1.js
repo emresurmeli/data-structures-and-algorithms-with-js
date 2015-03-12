@@ -32,3 +32,28 @@ function insert(element, after) {
   }
   return false;
 }
+
+/* Create a funciton to remove elements from the List */
+
+function remove(element) {
+  var foundAt = this.find(element);
+  if (foundAt > -1) {
+    this.dataStore.splice(foundAt, 1);
+    --this.listSize;
+    return true;
+  }
+  return false;
+}
+
+/* Create a function that determines the number of elements in a list */
+
+function length() {
+  return this.listSize;
+}
+
+/* Create a function */
+
+// function insertIfLarger(element) {
+//   var isLarger = true;
+//   isLarger ? insert(element, 0) : !!insert;
+// }
