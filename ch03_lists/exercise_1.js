@@ -20,3 +20,15 @@ function List() {
   this.getElement = getElement;
   this.contains = contains;
 }
+
+/* Create a function to insert elements into the List */
+
+function insert(element, after) {
+  var insertPos = this.find(after);
+  if (insertPos > -1) {
+    this.dataStore.splice(insertPos + 1, 0, element);
+    ++ this.listSize;
+    return true;
+  }
+  return false;
+}
