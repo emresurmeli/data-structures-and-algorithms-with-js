@@ -2,11 +2,11 @@
 // and backward. 
 
 /* create empty array */
-var array = [];
+var newArray = [];
 
 /* create a function to add string to the array object */
 function addString (string) {
-  this.array.push(string);
+  this.newArray.push(string);
 }
 
 /* create a function to display the contents of the array forward
@@ -26,3 +26,13 @@ function displayForwardTwo (array) {
 function displayBackward (array) {
   return array.reverse();
 }
+
+/* Test functions on array */
+
+addString('Chia hella mixtape.');
+addString('Bicycle rights ut Truffaut authentic.');
+addString('tote bag dolor, plaid readymade accusamus hella.');
+
+displayForwardOne(newArray);
+displayForwardTwo(newArray);
+displayBackward(newArray);
