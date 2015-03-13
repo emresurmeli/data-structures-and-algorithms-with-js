@@ -51,9 +51,5 @@ function length() {
   return this.listSize;
 }
 
-/* Create a function */
-
-// function insertIfLarger(element) {
-//   var isLarger = true;
-//   isLarger ? insert(element, 0) : !!insert;
-// }
+/* Create a function where, add an element only if it is numerically larger than 
+all the other elements in the List */
