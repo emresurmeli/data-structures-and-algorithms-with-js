@@ -21,8 +21,6 @@ function List() {
   this.contains = contains;
 }
 
-/* Create a function to insert elements into the List */
-
 function insert(element, after) {
   var insertPos = this.find(after);
   if (insertPos > -1) {
@@ -32,8 +30,6 @@ function insert(element, after) {
   }
   return false;
 }
-
-/* Create a funciton to remove elements from the List */
 
 function remove(element) {
   var foundAt = this.find(element);
@@ -45,11 +41,9 @@ function remove(element) {
   return false;
 }
 
-/* Create a function that determines the number of elements in a list */
-
 function length() {
   return this.listSize;
 }
 
-/* Create a function where, add an element only if it is numerically larger than 
+/* TODO: Create a function where, add an element only if it is numerically larger than 
 all the other elements in the List */
