@@ -49,6 +49,8 @@ function findPrevious(item) {
     return currNode;
 }
 
+// remove function links the previous node from the one we remove, and
+// links it to the one that is after the node that we remove. 
 function remove(item) {
     var prevNode = this.findPrevious(item);
     if (!(prevNode.next == null)) {
