@@ -58,3 +58,10 @@ function remove(item) {
     }
 }
 
+// Other functions to implement for a well functioning linked list 
+
+function advance(n) {}
+
+function back(n) {}
+
+function show() {}
