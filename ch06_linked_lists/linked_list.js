@@ -1,7 +1,7 @@
 // Node class for inserting new nodes to the linked list. 
 function Node(element) {
     this.element = element;
-    this.null = null;
+    this.next = null;
 }
 
 // the linkedList class provides functionality for the linked list
