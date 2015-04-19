@@ -4,7 +4,7 @@ function HashTable() {
   this.simpleHash = simpleHash;
   this.showDistro = showDistro;
   this.put = put;
-  // this.get = get;
+  this.get = get;
 }
 
 function put(data) {
